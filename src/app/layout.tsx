@@ -5,6 +5,7 @@ import { cn } from '@/lib/utils';
 import '@/styles/globals.css';
 import Navbar from '@/components/navbar/Navbar';
 import Providers from '@/components/Providers';
+import { Toaster } from '@/components/ui/Toaster';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -38,7 +39,7 @@ export default function RootLayout({
             {children}
           </div>
         </Providers>
-        {/* <Toaster /> */}
+        <Toaster />
       </body>
     </html>
   );

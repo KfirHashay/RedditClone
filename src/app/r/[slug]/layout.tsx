@@ -1,5 +1,5 @@
-import SubscribeLeaveToggle from '@/components/SubscribeLeaveToggle';
-import ToFeedButton from '@/components/ToFeedButton';
+import SubscribeLeaveToggle from '@/components/btn/SubscribeLeaveToggle';
+import ToFeedButton from '@/components/btn/ToFeedButton';
 import { buttonVariants } from '@/components/ui/Button';
 import { getAuthSession } from '@/lib/auth';
 import { db } from '@/lib/db';

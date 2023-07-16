@@ -1,5 +1,5 @@
-import CommentsSection from '@/components/CommentsSection';
-import EditorOutput from '@/components/EditorOutput';
+import CommentsSection from '@/components/comments/CommentsSection';
+import EditorOutput from '@/components/editor/EditorOutput';
 import PostVoteServer from '@/components/post-vote/PostVoteServer';
 import { buttonVariants } from '@/components/ui/Button';
 import { db } from '@/lib/db';
