@@ -104,21 +104,11 @@ const Layout = async ({
               <Link
                 className={buttonVariants({
                   variant: 'outline',
-                  className: 'w-full mb-4',
+                  className: 'w-full mb-6',
                 })}
                 href={`r/${slug}/submit`}
               >
                 Create Post
-              </Link>
-
-              <Link
-                className={buttonVariants({
-                  variant: 'destructive',
-                  className: 'w-full mb-6 bg-black',
-                })}
-                href={`r/${slug}/delete`}
-              >
-                Delete Community
               </Link>
             </dl>
           </div>
