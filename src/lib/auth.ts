@@ -28,6 +28,8 @@ export const authOptions: NextAuthOptions = {
         session.user.username = token.username;
       }
 
+      console.log('token', token);
+      console.log('session', session);
       return session;
     },
 
